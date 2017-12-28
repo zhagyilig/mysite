@@ -1,8 +1,11 @@
-多用户内容发布系统
-==============================================
+# [mysite](http://xtrdb.net)
+### :shipit:多用户内容发布系统:cookie:
+
+### 进度表 <a name="progress">&nbsp;</a>
 
 
-[![Build Status](https://img.shields.io/travis/geekwolf/fms.svg?branch=master)](https://img.shields.io/travis/geekwolf/fms.svg)
-[![Python Version](https://img.shields.io/badge/Python--3.6-paasing-green.svg)](https://img.shields.io/badge/Python--3.6-paasing-green.svg)
-[![Django Version](https://img.shields.io/badge/Django--1.11.0-paasing-green.svg)](https://img.shields.io/badge/Django--1.11.0-paasing-green.svg)
 
+
+需求 | 负责人 | 进度 | (预计) 完成时间 | 您可以做什么
+---|:---:|---|:---:|:---:
+自动化运维平台 | xtrdb.net | ![progress](http://progressed.io/bar/20) | **1** | 测试
