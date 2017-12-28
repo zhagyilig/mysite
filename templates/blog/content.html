@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Blog | Article{% endblock %}
+{% block content %}
+<div class="row text-center vertical-middle-sm">
+	<h1>{{ article.title }}</h1>
+</div>
+<div class="row">
+	<div class="col-xs-12 col-md-8">
+		<p class="text-center">
+            <span>{{ article.author.username }}</span>
+            <span style="margin-left: 20px">{{ article.publish }}</span>
+        </p>
+		<div>{{ article.body }}</div>
+	</div>
+	<div class="col-xs-6 col-md-4">
+		<h2>奋斗</h2>
+		<p>Study Python：www.xtrdb.net</p>
+{#		<img width="200px" src="http://www.mrwallpaper.com/wallpapers/Fluffy-Cat.jpg">#}
+        <img width="170px" src="https://assets.about.me/background/users/z/h/a/zhagyilig_1497628429_085.jpg">
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}Blog | Login{% endblock %}
+
+{% block content %}
+<div class="row text-center vertical-middle-sm"> {# 文本垂直居中 #}
+	<h1>Login</h1>
+	<p>Input your username and password</p>
+	<form class="form-horizontal" action="{% url 'account:user_login' %}" method="post">{% csrf_token %} {# 垂直排列 #}
+        {#{{ form.as_p }}#}
+		<div class="form-group">
+        {# 相当于段落标签，就是两个表单元素之间的间距变大了 #}
+			<label for="{{ form.username.id_for_label }}" class="col-md-5 control-label" style="color:red">
+                <span class="glyphicon glyphicon-user"></span>
+                Username
+            </label>
+			<div class="col-md-6 text-left">{{ form.username }}</div>
+		</div>
+		<div class="form-group">
+			<label for="{{ form.password.id_for_label }}" class="col-md-5 control-label" style="color:blue">
+                <span class="glyphicon glyphicon-floppy-open"></span>
+                Password
+            </label>
+			<div class="col-md-6 text-left">{{ form.password }}</div>
+		</div>
+		<input type="submit" class="{% url 'account:user_login'%}" value="Login">
+	</form>
+</div>
+{% endblock %}

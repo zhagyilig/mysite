@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Blog | Logout{% endblock %}
+
+{% block content %}
+    <div class="row text-center vertical-middle-sm">
+        <p>You have log out.</p>
+        <p>You cat <a href="{% url "account:user_login" %}">login</a> again</p>
+    </div>
+{% endblock %}
