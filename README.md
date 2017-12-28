@@ -8,4 +8,4 @@
 
 需求 | 负责人 | 进度 | (预计) 完成时间 | 您可以做什么
 ---|:---:|---|:---:|:---:
-自动化运维平台 | xtrdb.net | ![progress](http://progressed.io/bar/20) | **1** | 测试
+多用户内容发布系统 | xtrdb.net | ![progress](http://progressed.io/bar/20) | **1** | 测试
